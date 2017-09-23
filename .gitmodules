@@ -4,3 +4,6 @@
 [submodule "dev-perl/AnyEvent"]
 	path = dev-perl/AnyEvent
 	url = https://github.com/kentnl-gentoo/AnyEvent.git
+[submodule "dev-perl/Authen-PAM"]
+	path = dev-perl/Authen-PAM
+	url = https://github.com/kentnl-gentoo/Authen-PAM.git
