@@ -1,0 +1,4 @@
+[submodule "app-text/po4a"]
+	path = app-text/po4a
+	url = https://github.com/kentnl-gentoo/po4a.git
+	branch = 0.47-gentoo
