@@ -2,3 +2,6 @@
 	path = app-text/po4a
 	url = https://github.com/kentnl-gentoo/po4a.git
 	branch = 0.47-gentoo
+[submodule "dev-perl/AnyEvent"]
+	path = dev-perl/AnyEvent
+	url = https://github.com/kentnl-gentoo/AnyEvent.git
