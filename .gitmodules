@@ -7,3 +7,6 @@
 [submodule "dev-perl/Authen-PAM"]
 	path = dev-perl/Authen-PAM
 	url = https://github.com/kentnl-gentoo/Authen-PAM.git
+[submodule "dev-perl/Acme-Damn"]
+	path = dev-perl/Acme-Damn
+	url = https://github.com/kentnl-gentoo/perl-Acme-Damn.git
