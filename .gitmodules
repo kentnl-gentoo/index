@@ -10,3 +10,6 @@
 [submodule "dev-perl/Acme-Damn"]
 	path = dev-perl/Acme-Damn
 	url = https://github.com/kentnl-gentoo/perl-Acme-Damn.git
+[submodule "dev-perl/Alien-SDL"]
+	path = dev-perl/Alien-SDL
+	url = https://github.com/kentnl-gentoo/Alien-SDL
