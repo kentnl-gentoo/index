@@ -14,3 +14,38 @@ if ( $ENV{'GIT_COMMIT'} and exists $commits{$ENV{'GIT_COMMIT'}} ) {
   printf "export GIT_AUTHOR_DATE=\"%s\"\nexport GIT_COMITTER_DATE=\"%s\"\n",
     ( $commits{$ENV{GIT_COMMIT}} ) x 2;
 }
+
+=pod
+
+=head1 USAGE
+
+=over 4
+
+=item 1. Find your SHA1
+
+=item 2. Find a tarball for it
+
+=item 3. Extract a timestamp
+
+  TZ=UTC tar -vtf Acme-Data-Dumper-Extensions-0.001000.tar.gz |\
+         cut -c 32-47 |\
+         sort -u |\
+         tail -n 1
+
+=item 4. Add an entry as above
+
+=item 5. filter the branch
+
+  git filter-branch --env-filter 'eval $(perl /tmp/index/tools/filters/datefix.pl)' releases 7.13-gentoo
+
+=item 6. Keep in mind, this affects all refs reachable from commitishes.
+
+If you want to do only one side of the graph, do a range like:
+
+  commitx..commity
+
+Where "commitx" is the last commit on the right, and commity is the first-parent side.
+
+Make sure you read git-filter branch for that shit.
+
+=back
