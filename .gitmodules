@@ -16,3 +16,6 @@
 [submodule "dev-perl/AnyMoose"]
 	path = dev-perl/AnyMoose
 	url = https://github.com/kentnl-gentoo/Any-Moose.git
+[submodule "dev-perl/App-perlbrew"]
+	path = dev-perl/App-perlbrew
+	url = https://github.com/kentnl-gentoo/App-perlbrew.git
