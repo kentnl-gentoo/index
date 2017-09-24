@@ -110,3 +110,39 @@ my $commit;
 }
 say "commit SHA1 is $commit";
 system("git","update-ref","-m", "Adding $url", "HEAD", $commit) == 0 or die "Can't update-ref";
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+urlimport - Import a tarball from a CPAN Url and stuff it in git
+
+=head1 VERSION
+
+version 0.1
+
+=head1 USAGE
+
+=over 4
+
+=item 1. Be in a CPAN distro fork
+
+=item 2. Be on a releases branch
+
+=item 3. have a version URL
+
+    perl /tmp/index/tools/urlimport.pl https://cpan.metacpan.org/YADAYADA.tar.gz
+
+=item 4. If you're an adult:
+
+    EXTRA_PARENT="$sha1" perl /tmp/index/tools/urlimport.pl https://cpan.metacpan.org/YADAYADA.tar.gz
+
+=item 5. PS: This has my name all over it atm and will forge commits weirdly, but nobody cares, its mostly to have *SOME* record so I can keep my sanity intact.
+
+=back
+
+=cut
