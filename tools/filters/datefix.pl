@@ -11,7 +11,7 @@ my %commits = (
 );
 
 if ( $ENV{'GIT_COMMIT'} and exists $commits{$ENV{'GIT_COMMIT'}} ) {
-  printf "export GIT_AUTHOR_DATE=\"%s\"\nexport GIT_COMITTER_DATE=\"%s\"\n",
+  printf "export GIT_AUTHOR_DATE=\"%s\"\nexport GIT_COMMITTER_DATE=\"%s\"\n",
     ( $commits{$ENV{GIT_COMMIT}} ) x 2;
 }
 
