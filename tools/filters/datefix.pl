@@ -2,6 +2,11 @@
 use strict;
 use warnings;
 
+use constant SET_AUTHOR    => 0;
+use constant SET_COMMITTER => 1;
+use constant NAME          => 'Justin Lecher';
+use constant EMAIL         => 'jlec@gentoo.org';
+
 my %commits = (
   '3cc88bf03f314ff19bf3be103c718ffcef9b9e56' => '2015-05-02 14:39',
   '08359b7bd6798dc4365962a7881b2db8b7108cf0' => '2015-07-16 12:48',
@@ -10,9 +15,20 @@ my %commits = (
   '85b2046c0314e07ff6f504719ff0442184c07ccb' => '2017-06-23 23:50',
 );
 
-if ( $ENV{'GIT_COMMIT'} and exists $commits{$ENV{'GIT_COMMIT'}} ) {
-  printf "export GIT_AUTHOR_DATE=\"%s\"\nexport GIT_COMMITTER_DATE=\"%s\"\n",
-    ( $commits{$ENV{GIT_COMMIT}} ) x 2;
+if ( $ENV{'GIT_COMMIT'} and exists $commits{ $ENV{'GIT_COMMIT'} } ) {
+
+    my $commit_date = $commits{ $ENV{'GIT_COMMIT'} };
+
+    if (SET_AUTHOR) {
+        printf "export GIT_AUTHOR_DATE=\"%s\"\n",  $commit_date;
+        printf "export GIT_AUTHOR_NAME=\"%s\"\n",  NAME;
+        printf "export GIT_AUTHOR_EMAIL=\"%s\"\n", EMAIL;
+    }
+    if (SET_COMMITTER) {
+        printf "export GIT_COMMITTER_DATE=\"%s\"\n",  $commit_date;
+        printf "export GIT_COMMITTER_NAME=\"%s\"\n",  NAME;
+        printf "export GIT_COMMITTER_EMAIL=\"%s\"\n", EMAIL;
+    }
 }
 
 =pod
