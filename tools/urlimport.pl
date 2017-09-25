@@ -98,7 +98,10 @@ my $commit;
 
   my $mesg = "Import $url";
 
-  my (@parents) = ( '-p','HEAD' );
+  my (@parents);
+  if ( not $ENV{NO_PARENTS} ) {
+    push @parents, '-p','HEAD'
+  };
   if ( $ENV{EXTRA_PARENT} ) {
     push @parents, '-p', $ENV{EXTRA_PARENT};
   }
