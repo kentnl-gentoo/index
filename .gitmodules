@@ -22,3 +22,6 @@
 [submodule "dev-perl/BerkeleyDB"]
 	path = dev-perl/BerkeleyDB
 	url = https://github.com/kentnl-gentoo/BerkeleyDB.git
+[submodule "dev-perl/Bio-SamTools"]
+	path = dev-perl/Bio-SamTools
+	url = https://github.com/kentnl-gentoo/Bio-SamTools.git
