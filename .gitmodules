@@ -25,3 +25,6 @@
 [submodule "dev-perl/Bio-SamTools"]
 	path = dev-perl/Bio-SamTools
 	url = https://github.com/kentnl-gentoo/Bio-SamTools.git
+[submodule "dev-perl/Convert-Binary-C"]
+	path = dev-perl/Convert-Binary-C
+	url = https://github.com/kentnl-gentoo/Convert-Binary-C.git
