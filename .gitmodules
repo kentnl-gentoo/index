@@ -28,3 +28,6 @@
 [submodule "dev-perl/Convert-Binary-C"]
 	path = dev-perl/Convert-Binary-C
 	url = https://github.com/kentnl-gentoo/Convert-Binary-C.git
+[submodule "dev-perl/Crypt-SSLeay"]
+	path = dev-perl/Crypt-SSLeay
+	url = https://github.com/kentnl-gentoo/Crypt-SSLeay.git
