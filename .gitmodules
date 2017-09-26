@@ -31,3 +31,6 @@
 [submodule "dev-perl/Crypt-SSLeay"]
 	path = dev-perl/Crypt-SSLeay
 	url = https://github.com/kentnl-gentoo/Crypt-SSLeay.git
+[submodule "dev-perl/Crypt-Twofish"]
+	path = dev-perl/Crypt-Twofish
+	url = https://github.com/kentnl-gentoo/Crypt-Twofish.git
