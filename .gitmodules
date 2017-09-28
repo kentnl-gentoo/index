@@ -37,3 +37,6 @@
 [submodule "dev-perl/Cache-Memcached-Fast"]
 	path = dev-perl/Cache-Memcached-Fast
 	url = https://github.com/kentnl-gentoo/Cache-Memcached-Fast.git
+[submodule "dev-perl/CGI-FormBuilder"]
+	path = dev-perl/CGI-FormBuilder
+	url = https://github.com/kentnl-gentoo/formbuilder.git
