@@ -34,3 +34,6 @@
 [submodule "dev-perl/Crypt-Twofish"]
 	path = dev-perl/Crypt-Twofish
 	url = https://github.com/kentnl-gentoo/Crypt-Twofish.git
+[submodule "dev-perl/Cache-Memcached-Fast"]
+	path = dev-perl/Cache-Memcached-Fast
+	url = https://github.com/kentnl-gentoo/Cache-Memcached-Fast.git
