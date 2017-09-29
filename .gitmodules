@@ -40,3 +40,6 @@
 [submodule "dev-perl/CGI-FormBuilder"]
 	path = dev-perl/CGI-FormBuilder
 	url = https://github.com/kentnl-gentoo/formbuilder.git
+[submodule "dev-perl/Clipboard"]
+	path = dev-perl/Clipboard
+	url = https://github.com/kentnl-gentoo/Clipboard.git
