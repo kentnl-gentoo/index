@@ -43,3 +43,6 @@
 [submodule "dev-perl/Clipboard"]
 	path = dev-perl/Clipboard
 	url = https://github.com/kentnl-gentoo/Clipboard.git
+[submodule "dev-perl/Convert-UUlib"]
+	path = dev-perl/Convert-UUlib
+	url = https://github.com/kentnl-gentoo/Convert-UUlib.git
