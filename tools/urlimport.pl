@@ -22,9 +22,10 @@ BEGIN {
 
 my ($tname,) = ( $url =~ qr{/([^/]+)\z} );
 
-say "$url => $tname";
+my ($tfile) = $wd->child($tname);
+say "$url => $tfile";
 
-my $response = $ua->mirror( $url, $wd->child($tname) );
+my $response = $ua->mirror( $url, $tfile );
 if ( not $response->{success} ) {
   die "Could not fetch $url: $response->{status} $response->{reason}";
 }
@@ -33,7 +34,7 @@ $ENV{TZ} = "UTC";
 
 ## Get timestap
 {
-  open my $fh, '-|', 'tar', '-vtf', $wd->child($tname)->stringify or die "Can't untar $tname";
+  open my $fh, '-|', 'tar', '-vtf', $tfile->stringify or die "Can't untar $tname";
   my %seen_timestamps;
   while ( my $line = <$fh> ) {
     chomp $line;
@@ -71,7 +72,7 @@ if ( path('.gitignore')->exists ) {
 }
 # Unroll new tar
 {
-  system('tar','--strip-components=1', '-xvf', $wd->child($tname)->stringify ) == 0 or die "Tar bailed";
+  system('tar','--strip-components=1', '-xvf', $tfile->stringify ) == 0 or die "Tar bailed";
 }
 # Add new files
 {
