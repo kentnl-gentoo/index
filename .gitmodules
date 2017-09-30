@@ -55,3 +55,6 @@
 [submodule "dev-perl/Crypt-RIPEMD160"]
 	path = dev-perl/Crypt-RIPEMD160
 	url = https://github.com/kentnl-gentoo/Crypt-RIPEMD160
+[submodule "dev-perl/Convert-ASN1"]
+	path = dev-perl/Convert-ASN1
+	url = https://github.com/kentnl-gentoo/perl-Convert-ASN1.git
