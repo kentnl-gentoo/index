@@ -58,3 +58,6 @@
 [submodule "dev-perl/Convert-ASN1"]
 	path = dev-perl/Convert-ASN1
 	url = https://github.com/kentnl-gentoo/perl-Convert-ASN1.git
+[submodule "dev-perl/CGI-Compile"]
+	path = dev-perl/CGI-Compile
+	url = https://github.com/kentnl-gentoo/CGI-Compile.git
