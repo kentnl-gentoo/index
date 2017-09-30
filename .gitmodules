@@ -52,3 +52,6 @@
 [submodule "dev-perl/Crypt-OpenSSL-RSA"]
 	path = dev-perl/Crypt-OpenSSL-RSA
 	url = https://github.com/kentnl-gentoo/Crypt-OpenSSL-RSA.git
+[submodule "dev-perl/Crypt-RIPEMD160"]
+	path = dev-perl/Crypt-RIPEMD160
+	url = https://github.com/kentnl-gentoo/Crypt-RIPEMD160
