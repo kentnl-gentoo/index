@@ -49,3 +49,6 @@
 [submodule "dev-perl/Coro"]
 	path = dev-perl/Coro
 	url = https://github.com/kentnl-gentoo/Coro.git
+[submodule "dev-perl/Crypt-OpenSSL-RSA"]
+	path = dev-perl/Crypt-OpenSSL-RSA
+	url = https://github.com/kentnl-gentoo/Crypt-OpenSSL-RSA.git
