@@ -104,7 +104,9 @@ my $commit;
     push @parents, '-p','HEAD'
   };
   if ( $ENV{EXTRA_PARENT} ) {
-    push @parents, '-p', $ENV{EXTRA_PARENT};
+    for my $parent ( split /\s+/, $ENV{EXTRA_PARENT} ) {
+      push @parents, '-p', $parent;
+    }
   }
   open my $fh, '-|', 'git','commit-tree', $tree, '-m', $mesg, @parents;
   local $/ = undef;
