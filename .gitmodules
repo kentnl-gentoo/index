@@ -64,3 +64,6 @@
 [submodule "dev-perl/Convert-PEM"]
 	path = dev-perl/Convert-PEM
 	url = https://github.com/kentnl-gentoo/Convert-PEM.git
+[submodule "dev-perl/Crypt-CipherSaber"]
+	path = dev-perl/Crypt-CipherSaber
+	url = https://github.com/kentnl-gentoo/Crypt-CipherSaber.git
