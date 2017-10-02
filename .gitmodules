@@ -61,3 +61,6 @@
 [submodule "dev-perl/CGI-Compile"]
 	path = dev-perl/CGI-Compile
 	url = https://github.com/kentnl-gentoo/CGI-Compile.git
+[submodule "dev-perl/Convert-PEM"]
+	path = dev-perl/Convert-PEM
+	url = https://github.com/kentnl-gentoo/Convert-PEM.git
