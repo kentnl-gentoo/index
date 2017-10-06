@@ -67,3 +67,6 @@
 [submodule "dev-perl/Crypt-CipherSaber"]
 	path = dev-perl/Crypt-CipherSaber
 	url = https://github.com/kentnl-gentoo/Crypt-CipherSaber.git
+[submodule "dev-perl/Dist-Zilla"]
+	path = dev-perl/Dist-Zilla
+	url = https://github.com/kentnl-gentoo/Dist-Zilla.git
