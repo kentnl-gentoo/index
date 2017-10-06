@@ -73,3 +73,6 @@
 [submodule "dev-perl/Devel-Refactor"]
 	path = dev-perl/Devel-Refactor
 	url = https://github.com/kentnl-gentoo/Devel-Refactor.git
+[submodule "dev-perl/Date-Pcalc"]
+	path = dev-perl/Date-Pcalc
+	url = https://github.com/kentnl-gentoo/Date-Pcalc.git
