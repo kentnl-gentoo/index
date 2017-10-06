@@ -70,3 +70,6 @@
 [submodule "dev-perl/Dist-Zilla"]
 	path = dev-perl/Dist-Zilla
 	url = https://github.com/kentnl-gentoo/Dist-Zilla.git
+[submodule "dev-perl/Devel-Refactor"]
+	path = dev-perl/Devel-Refactor
+	url = https://github.com/kentnl-gentoo/Devel-Refactor.git
