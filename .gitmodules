@@ -79,3 +79,6 @@
 [submodule "dev-perl/DBD-SQLite"]
 	path = dev-perl/DBD-SQLite
 	url = https://github.com/kentnl-gentoo/DBD-SQLite.git
+[submodule "dev-perl/Class-MakeMethods"]
+	path = dev-perl/Class-MakeMethods
+	url = https://github.com/kentnl-gentoo/Class-MakeMethods.git
