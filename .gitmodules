@@ -85,3 +85,6 @@
 [submodule "dev-perl/Data-Dump-Streamer"]
 	path = dev-perl/Data-Dump-Streamer
 	url = https://github.com/kentnl-gentoo/Data-Dump-Streamer.git
+[submodule "dev-perl/Data-ShowTable"]
+	path = dev-perl/Data-ShowTable
+	url = https://github.com/kentnl-gentoo/Data-ShowTable.git
