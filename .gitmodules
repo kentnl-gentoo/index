@@ -91,3 +91,6 @@
 [submodule "dev-perl/Devel-NYTProf"]
 	path = dev-perl/Devel-NYTProf
 	url = https://github.com/kentnl-gentoo/devel-nytprof.git
+[submodule "dev-perl/Net-Daemon"]
+	path = dev-perl/Net-Daemon
+	url = https://github.com/kentnl-gentoo/Net-Daemon.git
