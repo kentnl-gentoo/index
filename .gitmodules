@@ -82,3 +82,6 @@
 [submodule "dev-perl/Class-MakeMethods"]
 	path = dev-perl/Class-MakeMethods
 	url = https://github.com/kentnl-gentoo/Class-MakeMethods.git
+[submodule "dev-perl/Data-Dump-Streamer"]
+	path = dev-perl/Data-Dump-Streamer
+	url = https://github.com/kentnl-gentoo/Data-Dump-Streamer.git
