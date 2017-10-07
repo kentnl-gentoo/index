@@ -88,3 +88,6 @@
 [submodule "dev-perl/Data-ShowTable"]
 	path = dev-perl/Data-ShowTable
 	url = https://github.com/kentnl-gentoo/Data-ShowTable.git
+[submodule "dev-perl/Devel-NYTProf"]
+	path = dev-perl/Devel-NYTProf
+	url = https://github.com/kentnl-gentoo/devel-nytprof.git
