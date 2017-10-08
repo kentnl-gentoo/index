@@ -100,3 +100,6 @@
 [submodule "dev-perl/DBI-Shell"]
 	path = dev-perl/DBI-Shell
 	url = https://github.com/kentnl-gentoo/DBI-Shell.git
+[submodule "dev-perl/DBIx-SearchBuilder"]
+	path = dev-perl/DBIx-SearchBuilder
+	url = https://github.com/kentnl-gentoo/dbix-searchbuilder.git
