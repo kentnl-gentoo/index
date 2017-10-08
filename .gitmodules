@@ -97,3 +97,6 @@
 [submodule "dev-perl/Devel-SmallProf"]
 	path = dev-perl/Devel-SmallProf
 	url = https://github.com/kentnl-gentoo/Devel-SmallProf.git
+[submodule "dev-perl/DBI-Shell"]
+	path = dev-perl/DBI-Shell
+	url = https://github.com/kentnl-gentoo/DBI-Shell.git
