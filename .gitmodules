@@ -103,3 +103,6 @@
 [submodule "dev-perl/DBIx-SearchBuilder"]
 	path = dev-perl/DBIx-SearchBuilder
 	url = https://github.com/kentnl-gentoo/dbix-searchbuilder.git
+[submodule "dev-perl/Data-FormValidator"]
+	path = dev-perl/Data-FormValidator
+	url = https://github.com/kentnl-gentoo/Data-FormValidator.git
