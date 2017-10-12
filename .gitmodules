@@ -109,3 +109,6 @@
 [submodule "dev-perl/Data-HexDump"]
 	path = dev-perl/Data-HexDump
 	url = https://github.com/kentnl-gentoo/Data-HexDump.git
+[submodule "dev-perl/Audio-Mixer"]
+	path = dev-perl/Audio-Mixer
+	url = https://github.com/kentnl-gentoo/Audio-Mixer.git
