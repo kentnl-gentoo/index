@@ -106,3 +106,6 @@
 [submodule "dev-perl/Data-FormValidator"]
 	path = dev-perl/Data-FormValidator
 	url = https://github.com/kentnl-gentoo/Data-FormValidator.git
+[submodule "dev-perl/Data-HexDump"]
+	path = dev-perl/Data-HexDump
+	url = https://github.com/kentnl-gentoo/Data-HexDump.git
