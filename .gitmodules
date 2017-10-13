@@ -112,3 +112,6 @@
 [submodule "dev-perl/Audio-Mixer"]
 	path = dev-perl/Audio-Mixer
 	url = https://github.com/kentnl-gentoo/Audio-Mixer.git
+[submodule "dev-perl/Apache-CGI-Builder"]
+	path = dev-perl/Apache-CGI-Builder
+	url = https://github.com/kentnl-gentoo/Apache-CGI-Builder.git
