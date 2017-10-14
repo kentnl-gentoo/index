@@ -121,3 +121,6 @@
 [submodule "dev-perl/Apache-SessionX"]
 	path = dev-perl/Apache-SessionX
 	url = https://github.com/kentnl-gentoo/Apache-SessionX.git
+[submodule "dev-perl/Apache-Test"]
+	path = dev-perl/Apache-Test
+	url = https://github.com/kentnl-gentoo/Apache-Test.git
