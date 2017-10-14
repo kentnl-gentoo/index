@@ -115,3 +115,6 @@
 [submodule "dev-perl/Apache-CGI-Builder"]
 	path = dev-perl/Apache-CGI-Builder
 	url = https://github.com/kentnl-gentoo/Apache-CGI-Builder.git
+[submodule "dev-perl/DBD-mysql"]
+	path = dev-perl/DBD-mysql
+	url = https://github.com/kentnl-gentoo/DBD-mysql.git
