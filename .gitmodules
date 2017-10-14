@@ -118,3 +118,6 @@
 [submodule "dev-perl/DBD-mysql"]
 	path = dev-perl/DBD-mysql
 	url = https://github.com/kentnl-gentoo/DBD-mysql.git
+[submodule "dev-perl/Apache-SessionX"]
+	path = dev-perl/Apache-SessionX
+	url = https://github.com/kentnl-gentoo/Apache-SessionX.git
