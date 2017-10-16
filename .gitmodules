@@ -124,3 +124,6 @@
 [submodule "dev-perl/Apache-Test"]
 	path = dev-perl/Apache-Test
 	url = https://github.com/kentnl-gentoo/Apache-Test.git
+[submodule "dev-perl/CGI-Builder"]
+	path = dev-perl/CGI-Builder
+	url = https://github.com/kentnl-gentoo/CGI-Builder.git
