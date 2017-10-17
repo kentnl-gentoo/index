@@ -127,3 +127,6 @@
 [submodule "dev-perl/CGI-Builder"]
 	path = dev-perl/CGI-Builder
 	url = https://github.com/kentnl-gentoo/CGI-Builder.git
+[submodule "dev-perl/Digest-GOST"]
+	path = dev-perl/Digest-GOST
+	url = https://github.com/kentnl-gentoo/digest-gost.git
