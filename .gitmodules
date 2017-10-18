@@ -130,3 +130,6 @@
 [submodule "dev-perl/Digest-GOST"]
 	path = dev-perl/Digest-GOST
 	url = https://github.com/kentnl-gentoo/digest-gost.git
+[submodule "dev-perl/ConfigReader"]
+	path = dev-perl/ConfigReader
+	url = https://github.com/kentnl-gentoo/ConfigReader.git
