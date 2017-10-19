@@ -133,3 +133,6 @@
 [submodule "dev-perl/ConfigReader"]
 	path = dev-perl/ConfigReader
 	url = https://github.com/kentnl-gentoo/ConfigReader.git
+[submodule "dev-perl/Crypt-OpenSSL-Bignum"]
+	path = dev-perl/Crypt-OpenSSL-Bignum
+	url = https://github.com/kentnl-gentoo/perl-Crypt-OpenSSL-Bignum.git
