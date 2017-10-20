@@ -34,7 +34,7 @@ $ENV{TZ} = "UTC";
 
 ## Get timestap
 {
-  open my $fh, '-|', 'tar', '-vtf', $tfile->stringify or die "Can't untar $tname";
+  open my $fh, '-|', 'tar', '--full-time','--utc','--numeric-owner','-vtf', $tfile->stringify or die "Can't untar $tname";
   my %seen_timestamps;
   while ( my $line = <$fh> ) {
     chomp $line;
