@@ -142,3 +142,6 @@
 [submodule "dev-perl/Event-RPC"]
 	path = dev-perl/Event-RPC
 	url = https://github.com/kentnl-gentoo/Event-RPC.git
+[submodule "dev-perl/ExtUtils-XSpp"]
+	path = dev-perl/ExtUtils-XSpp
+	url = https://github.com/kentnl-gentoo/extutils-xspp.git
