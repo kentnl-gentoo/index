@@ -139,3 +139,6 @@
 [submodule "dev-perl/DateTime-HiRes"]
 	path = dev-perl/DateTime-HiRes
 	url = https://github.com/kentnl-gentoo/DateTime-HiRes.git
+[submodule "dev-perl/Event-RPC"]
+	path = dev-perl/Event-RPC
+	url = https://github.com/kentnl-gentoo/Event-RPC.git
