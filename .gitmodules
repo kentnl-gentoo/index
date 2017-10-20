@@ -136,3 +136,6 @@
 [submodule "dev-perl/Crypt-OpenSSL-Bignum"]
 	path = dev-perl/Crypt-OpenSSL-Bignum
 	url = https://github.com/kentnl-gentoo/perl-Crypt-OpenSSL-Bignum.git
+[submodule "dev-perl/DateTime-HiRes"]
+	path = dev-perl/DateTime-HiRes
+	url = https://github.com/kentnl-gentoo/DateTime-HiRes.git
