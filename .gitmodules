@@ -148,3 +148,6 @@
 [submodule "dev-perl/ExtUtils-CppGuess"]
 	path = dev-perl/ExtUtils-CppGuess
 	url = https://github.com/kentnl-gentoo/extutils-cppguess.git
+[submodule "dev-perl/ExtUtils-AutoInstall"]
+	path = dev-perl/ExtUtils-AutoInstall
+	url = https://github.com/kentnl-gentoo/ExtUtils-AutoInstall.git
