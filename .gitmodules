@@ -145,3 +145,6 @@
 [submodule "dev-perl/ExtUtils-XSpp"]
 	path = dev-perl/ExtUtils-XSpp
 	url = https://github.com/kentnl-gentoo/extutils-xspp.git
+[submodule "dev-perl/ExtUtils-CppGuess"]
+	path = dev-perl/ExtUtils-CppGuess
+	url = https://github.com/kentnl-gentoo/extutils-cppguess.git
