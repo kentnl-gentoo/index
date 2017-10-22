@@ -151,3 +151,6 @@
 [submodule "dev-perl/ExtUtils-AutoInstall"]
 	path = dev-perl/ExtUtils-AutoInstall
 	url = https://github.com/kentnl-gentoo/ExtUtils-AutoInstall.git
+[submodule "dev-perl/Fuse"]
+	path = dev-perl/Fuse
+	url = https://github.com/kentnl-gentoo/perl-fuse.git
