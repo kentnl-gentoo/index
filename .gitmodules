@@ -154,3 +154,6 @@
 [submodule "dev-perl/Fuse"]
 	path = dev-perl/Fuse
 	url = https://github.com/kentnl-gentoo/perl-fuse.git
+[submodule "dev-perl/Gearman-Server"]
+	path = dev-perl/Gearman-Server
+	url = https://github.com/kentnl-gentoo/Gearman-Server.git
