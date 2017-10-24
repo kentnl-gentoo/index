@@ -160,3 +160,6 @@
 [submodule "dev-perl/Google-Ads-AdWords-Client"]
 	path = dev-perl/Google-Ads-AdWords-Client
 	url = https://github.com/kentnl-gentoo/googleads-perl-lib.git
+[submodule "dev-perl/HTML-Mason"]
+	path = dev-perl/HTML-Mason
+	url = https://github.com/kentnl-gentoo/HTML-Mason.git
