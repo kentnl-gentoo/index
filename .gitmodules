@@ -163,3 +163,6 @@
 [submodule "dev-perl/HTML-Mason"]
 	path = dev-perl/HTML-Mason
 	url = https://github.com/kentnl-gentoo/HTML-Mason.git
+[submodule "dev-perl/HTML-TagFilter"]
+	path = dev-perl/HTML-TagFilter
+	url = https://github.com/kentnl-gentoo/HTML-TagFilter.git
