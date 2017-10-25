@@ -169,3 +169,6 @@
 [submodule "dev-perl/HTTP-Server-Simple-Mason"]
 	path = dev-perl/HTTP-Server-Simple-Mason
 	url = https://github.com/kentnl-gentoo/http-server-simple-mason.git
+[submodule "dev-perl/HTML-Template-JIT"]
+	path = dev-perl/HTML-Template-JIT
+	url = https://github.com/kentnl-gentoo/HTML-Template-JIT.git
