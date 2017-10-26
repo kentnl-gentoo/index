@@ -181,3 +181,6 @@
 [submodule "dev-perl/Log-Agent"]
 	path = dev-perl/Log-Agent
 	url = https://github.com/kentnl-gentoo/Log-Agent.git
+[submodule "dev-perl/Log-TraceMessages"]
+	path = dev-perl/Log-TraceMessages
+	url = https://github.com/kentnl-gentoo/Log-TraceMessages.git
