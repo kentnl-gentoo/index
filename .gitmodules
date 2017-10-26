@@ -175,3 +175,6 @@
 [submodule "dev-perl/IO-Pager"]
 	path = dev-perl/IO-Pager
 	url = https://github.com/kentnl-gentoo/io-pager.git
+[submodule "dev-perl/JavaScript-SpiderMonkey"]
+	path = dev-perl/JavaScript-SpiderMonkey
+	url = https://github.com/kentnl-gentoo/JavaScript-SpiderMonkey.git
