@@ -178,3 +178,6 @@
 [submodule "dev-perl/JavaScript-SpiderMonkey"]
 	path = dev-perl/JavaScript-SpiderMonkey
 	url = https://github.com/kentnl-gentoo/JavaScript-SpiderMonkey.git
+[submodule "dev-perl/Log-Agent"]
+	path = dev-perl/Log-Agent
+	url = https://github.com/kentnl-gentoo/Log-Agent.git
