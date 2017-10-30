@@ -199,3 +199,6 @@
 [submodule "dev-perl/librg-utils-perl"]
 	path = dev-perl/librg-utils-perl
 	url = https://github.com/kentnl-gentoo/librg-utils-perl.git
+[submodule "dev-perl/Math-BigInt-GMP"]
+	path = dev-perl/Math-BigInt-GMP
+	url = https://github.com/kentnl-gentoo/Math-BigInt-GMP.git
