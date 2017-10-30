@@ -193,3 +193,6 @@
 [submodule "dev-perl/List-MoreUtils"]
 	path = dev-perl/List-MoreUtils
 	url = https://github.com/kentnl-gentoo/List-MoreUtils.git
+[submodule "dev-perl/libintl-perl"]
+	path = dev-perl/libintl-perl
+	url = https://github.com/kentnl-gentoo/libintl-perl.git
