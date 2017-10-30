@@ -202,3 +202,6 @@
 [submodule "dev-perl/Math-BigInt-GMP"]
 	path = dev-perl/Math-BigInt-GMP
 	url = https://github.com/kentnl-gentoo/Math-BigInt-GMP.git
+[submodule "dev-perl/Module-Info"]
+	path = dev-perl/Module-Info
+	url = https://github.com/kentnl-gentoo/Module-Info.git
