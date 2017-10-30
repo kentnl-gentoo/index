@@ -196,3 +196,6 @@
 [submodule "dev-perl/libintl-perl"]
 	path = dev-perl/libintl-perl
 	url = https://github.com/kentnl-gentoo/libintl-perl.git
+[submodule "dev-perl/librg-utils-perl"]
+	path = dev-perl/librg-utils-perl
+	url = https://github.com/kentnl-gentoo/librg-utils-perl.git
