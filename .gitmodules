@@ -190,3 +190,6 @@
 [submodule "dev-perl/Locale-gettext"]
 	path = dev-perl/Locale-gettext
 	url = https://github.com/kentnl-gentoo/Perl-Locale-gettext.git
+[submodule "dev-perl/List-MoreUtils"]
+	path = dev-perl/List-MoreUtils
+	url = https://github.com/kentnl-gentoo/List-MoreUtils.git
