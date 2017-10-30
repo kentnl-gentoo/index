@@ -184,3 +184,6 @@
 [submodule "dev-perl/Log-TraceMessages"]
 	path = dev-perl/Log-TraceMessages
 	url = https://github.com/kentnl-gentoo/Log-TraceMessages.git
+[submodule "dev-perl/List-UtilsBy"]
+	path = dev-perl/List-UtilsBy
+	url = https://github.com/kentnl-gentoo/List-UtilsBy.git
