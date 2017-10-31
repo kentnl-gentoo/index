@@ -208,3 +208,6 @@
 [submodule "dev-perl/MusicBrainz-DiscID"]
 	path = dev-perl/MusicBrainz-DiscID
 	url = https://github.com/kentnl-gentoo/perl-musicbrainz-discid.git
+[submodule "dev-perl/MooseX-Types-DateTime-ButMaintained"]
+	path = dev-perl/MooseX-Types-DateTime-ButMaintained
+	url = https://github.com/kentnl-gentoo/MooseX-Types-DateTime-ButMaintained.git
