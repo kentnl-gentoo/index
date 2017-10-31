@@ -211,3 +211,6 @@
 [submodule "dev-perl/MooseX-Types-DateTime-ButMaintained"]
 	path = dev-perl/MooseX-Types-DateTime-ButMaintained
 	url = https://github.com/kentnl-gentoo/MooseX-Types-DateTime-ButMaintained.git
+[submodule "dev-perl/Mail-DMARC"]
+	path = dev-perl/Mail-DMARC
+	url = https://github.com/kentnl-gentoo/mail-dmarc.git
