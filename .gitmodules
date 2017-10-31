@@ -205,3 +205,6 @@
 [submodule "dev-perl/Module-Info"]
 	path = dev-perl/Module-Info
 	url = https://github.com/kentnl-gentoo/Module-Info.git
+[submodule "dev-perl/MusicBrainz-DiscID"]
+	path = dev-perl/MusicBrainz-DiscID
+	url = https://github.com/kentnl-gentoo/perl-musicbrainz-discid.git
