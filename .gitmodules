@@ -214,3 +214,6 @@
 [submodule "dev-perl/Mail-DMARC"]
 	path = dev-perl/Mail-DMARC
 	url = https://github.com/kentnl-gentoo/mail-dmarc.git
+[submodule "dev-perl/Math-BigInt-Lite"]
+	path = dev-perl/Math-BigInt-Lite
+	url = https://github.com/kentnl-gentoo/Math-BigInt-Lite.git
