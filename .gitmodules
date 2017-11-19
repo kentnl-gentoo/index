@@ -217,3 +217,6 @@
 [submodule "dev-perl/Math-BigInt-Lite"]
 	path = dev-perl/Math-BigInt-Lite
 	url = https://github.com/kentnl-gentoo/Math-BigInt-Lite.git
+[submodule "dev-perl/MogileFS-Server"]
+	path = dev-perl/MogileFS-Server
+	url = https://github.com/kentnl-gentoo/MogileFS-Server.git
