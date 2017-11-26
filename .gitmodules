@@ -223,3 +223,6 @@
 [submodule "dev-perl/Net-SSLeay"]
 	path = dev-perl/Net-SSLeay
 	url = https://github.com/kentnl-gentoo/perl-net-ssleay.git
+[submodule "dev-perl/Net-Amazon"]
+	path = dev-perl/Net-Amazon
+	url = https://github.com/kentnl-gentoo/p5-Net-Amazon.git
