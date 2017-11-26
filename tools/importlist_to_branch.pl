@@ -8,6 +8,8 @@ use constant mydir => path($0)->absolute->parent;
 
 my @import_list = path( $ARGV[0] )->lines_raw( { chomp => 1 } );
 
+my $steps = 0;
+
 system( 'git', 'checkout', '-b', 'releases' );
 {
     my $line = shift @import_list;
@@ -26,6 +28,8 @@ system( 'git', 'checkout', '-b', 'releases' );
     }
 }
 while (@import_list) {
+    $steps++;
+    last if exists $ENV{STEP_LIMIT} and $ENV{STEP_LIMIT} < $steps;
     my $line = shift @import_list;
     my ( $commit, @parents ) = split qr/\s+/, $line;
     if ( $commit =~ /\A\d\d\d\d-\d\d-\d\dT/ ) {
