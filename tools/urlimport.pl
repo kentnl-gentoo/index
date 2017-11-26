@@ -97,8 +97,8 @@ my $tree;
 say "tree SHA1 is $tree";
 my $commit;
 {
-  $ENV{GIT_AUTHOR_NAME} = $info->cpanid;
-  $ENV{GIT_AUTHOR_EMAIL} = lc($info->cpanid) . '@cpan.org';
+  $ENV{GIT_AUTHOR_NAME} = $info->cpanid || 'Unknown';
+  $ENV{GIT_AUTHOR_EMAIL} = defined $info->cpanid ? ( lc($info->cpanid) . '@cpan.org' ) : 'unknown@example.org';
   $ENV{GIT_COMMITTER_NAME} = 'Kent Fredric';
   $ENV{GIT_COMMITTER_EMAIL} = 'kentnl@cpan.org';
 
