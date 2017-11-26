@@ -226,3 +226,6 @@
 [submodule "dev-perl/Net-Amazon"]
 	path = dev-perl/Net-Amazon
 	url = https://github.com/kentnl-gentoo/p5-Net-Amazon.git
+[submodule "dev-perl/Net-Jabber"]
+	path = dev-perl/Net-Jabber
+	url = https://github.com/kentnl-gentoo/Net-Jabber.git
