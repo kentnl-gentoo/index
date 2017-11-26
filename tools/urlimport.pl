@@ -24,10 +24,15 @@ my ($tname,) = ( $url =~ qr{/([^/]+)\z} );
 
 my ($tfile) = $wd->child($tname);
 say "$url => $tfile";
-
-my $response = $ua->mirror( $url, $tfile );
-if ( not $response->{success} ) {
-  die "Could not fetch $url: $response->{status} $response->{reason}";
+if ( $url =~ /^http/  ) {
+  my $response = $ua->mirror( $url, $tfile );
+  if ( not $response->{success} ) {
+    die "Could not fetch $url: $response->{status} $response->{reason}";
+  }
+} else {
+  if ( not $tfile->is_file ) {
+    die "$tfile is unfetchable, please create it manually";
+  }
 }
 
 $ENV{TZ} = "UTC";
