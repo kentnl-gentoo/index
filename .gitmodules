@@ -220,3 +220,6 @@
 [submodule "dev-perl/MogileFS-Server"]
 	path = dev-perl/MogileFS-Server
 	url = https://github.com/kentnl-gentoo/MogileFS-Server.git
+[submodule "dev-perl/Net-SSLeay"]
+	path = dev-perl/Net-SSLeay
+	url = https://github.com/kentnl-gentoo/perl-net-ssleay.git
