@@ -12,6 +12,9 @@ system( 'git', 'checkout', '-b', 'releases' );
 {
     my $line = shift @import_list;
     my ( $commit, @parents ) = split qr/\s+/, $line;
+    if ( $commit =~ /\A\d\d\d\d-\d\d-\d\dT/ ) {
+      $commit = shift @parents;
+    }
     if ( not @parents ) {
         local $ENV{NO_PARENTS} = 1;
         system( $^X, path( mydir, 'urlimport.pl' ), $commit );
@@ -25,6 +28,9 @@ system( 'git', 'checkout', '-b', 'releases' );
 while (@import_list) {
     my $line = shift @import_list;
     my ( $commit, @parents ) = split qr/\s+/, $line;
+    if ( $commit =~ /\A\d\d\d\d-\d\d-\d\dT/ ) {
+      $commit = shift @parents;
+    }
     if ( not @parents ) {
         system( $^X, path( mydir, 'urlimport.pl' ), $commit );
     }
