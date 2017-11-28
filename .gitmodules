@@ -229,3 +229,6 @@
 [submodule "dev-perl/Net-Jabber"]
 	path = dev-perl/Net-Jabber
 	url = https://github.com/kentnl-gentoo/Net-Jabber.git
+[submodule "dev-perl/Net-Server"]
+	path = dev-perl/Net-Server
+	url = https://github.com/kentnl-gentoo/perl-net-server.git
