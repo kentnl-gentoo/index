@@ -235,3 +235,6 @@
 [submodule "dev-perl/Net-XMPP"]
 	path = dev-perl/Net-XMPP
 	url = https://github.com/kentnl-gentoo/Net-XMPP.git
+[submodule "dev-perl/Net-HTTP"]
+	path = dev-perl/Net-HTTP
+	url = https://github.com/kentnl-gentoo/Net-HTTP.git
