@@ -244,3 +244,6 @@
 [submodule "dev-perl/Net-Pcap"]
 	path = dev-perl/Net-Pcap
 	url = https://github.com/kentnl-gentoo/Net-Pcap.git
+[submodule "dev-perl/Net-SSH-Perl"]
+	path = dev-perl/Net-SSH-Perl
+	url = https://github.com/kentnl-gentoo/Net-SSH-Perl.git
