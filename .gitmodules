@@ -241,3 +241,6 @@
 [submodule "dev-perl/Net-LDAPapi"]
 	path = dev-perl/Net-LDAPapi
 	url = https://github.com/kentnl-gentoo/net-ldapapi.git
+[submodule "dev-perl/Net-Pcap"]
+	path = dev-perl/Net-Pcap
+	url = https://github.com/kentnl-gentoo/Net-Pcap.git
