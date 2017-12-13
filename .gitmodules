@@ -250,3 +250,6 @@
 [submodule "dev-perl/Net-SSH2"]
 	path = dev-perl/Net-SSH2
 	url = https://github.com/kentnl-gentoo/net-ssh2.git
+[submodule "dev-perl/Net-Telnet-Cisco"]
+	path = dev-perl/Net-Telnet-Cisco
+	url = https://github.com/kentnl-gentoo/Net-Telnet-Cisco.git
