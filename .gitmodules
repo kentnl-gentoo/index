@@ -253,3 +253,6 @@
 [submodule "dev-perl/Net-Telnet-Cisco"]
 	path = dev-perl/Net-Telnet-Cisco
 	url = https://github.com/kentnl-gentoo/Net-Telnet-Cisco.git
+[submodule "dev-perl/NetAddr-IP"]
+	path = dev-perl/NetAddr-IP
+	url = https://github.com/kentnl-gentoo/NetAddr-IP.git
