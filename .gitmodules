@@ -256,3 +256,6 @@
 [submodule "dev-perl/NetAddr-IP"]
 	path = dev-perl/NetAddr-IP
 	url = https://github.com/kentnl-gentoo/NetAddr-IP.git
+[submodule "dev-perl/Net-Patricia"]
+	path = dev-perl/Net-Patricia
+	url = https://github.com/kentnl-gentoo/Net-Patricia.git
