@@ -262,3 +262,6 @@
 [submodule "dev-perl/Net-PcapUtils"]
 	path = dev-perl/Net-PcapUtils
 	url = https://github.com/kentnl-gentoo/Net-PcapUtils.git
+[submodule "dev-perl/Net-RawIP"]
+	path = dev-perl/Net-RawIP
+	url = https://github.com/kentnl-gentoo/Net-RawIP.git
