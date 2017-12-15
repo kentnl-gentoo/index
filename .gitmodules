@@ -259,3 +259,6 @@
 [submodule "dev-perl/Net-Patricia"]
 	path = dev-perl/Net-Patricia
 	url = https://github.com/kentnl-gentoo/Net-Patricia.git
+[submodule "dev-perl/Net-PcapUtils"]
+	path = dev-perl/Net-PcapUtils
+	url = https://github.com/kentnl-gentoo/Net-PcapUtils.git
