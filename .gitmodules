@@ -265,3 +265,6 @@
 [submodule "dev-perl/Net-RawIP"]
 	path = dev-perl/Net-RawIP
 	url = https://github.com/kentnl-gentoo/Net-RawIP.git
+[submodule "dev-perl/Net-SNPP"]
+	path = dev-perl/Net-SNPP
+	url = https://github.com/kentnl-gentoo/Net-SNPP.git
