@@ -271,3 +271,6 @@
 [submodule "dev-perl/Net-Z3950-ZOOM"]
 	path = dev-perl/Net-Z3950-ZOOM
 	url = https://github.com/kentnl-gentoo/zoom-perl.git
+[submodule "dev-perl/Net-Subnet"]
+	path = dev-perl/Net-Subnet
+	url = https://github.com/kentnl-gentoo/Net-Subnet.git
