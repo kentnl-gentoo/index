@@ -274,3 +274,6 @@
 [submodule "dev-perl/Net-Subnet"]
 	path = dev-perl/Net-Subnet
 	url = https://github.com/kentnl-gentoo/Net-Subnet.git
+[submodule "dev-perl/NetxAP"]
+	path = dev-perl/NetxAP
+	url = https://github.com/kentnl-gentoo/NetxAP.git
