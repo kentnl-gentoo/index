@@ -268,3 +268,6 @@
 [submodule "dev-perl/Net-SNPP"]
 	path = dev-perl/Net-SNPP
 	url = https://github.com/kentnl-gentoo/Net-SNPP.git
+[submodule "dev-perl/Net-Z3950-ZOOM"]
+	path = dev-perl/Net-Z3950-ZOOM
+	url = https://github.com/kentnl-gentoo/zoom-perl.git
