@@ -283,3 +283,6 @@
 [submodule "dev-perl/Ogg-Vorbis-Header"]
 	path = dev-perl/Ogg-Vorbis-Header
 	url = https://github.com/kentnl-gentoo/Ogg-Vorbis-Header.git
+[submodule "dev-perl/Parallel-Iterator"]
+	path = dev-perl/Parallel-Iterator
+	url = https://github.com/kentnl-gentoo/Parallel--Iterator.git
