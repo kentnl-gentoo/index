@@ -277,3 +277,6 @@
 [submodule "dev-perl/NetxAP"]
 	path = dev-perl/NetxAP
 	url = https://github.com/kentnl-gentoo/NetxAP.git
+[submodule "dev-perl/Ogg-Vorbis-Header-PurePerl"]
+	path = dev-perl/Ogg-Vorbis-Header-PurePerl
+	url = https://github.com/kentnl-gentoo/perl-ogg-vorbis-header-pureperl.git
