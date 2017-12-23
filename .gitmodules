@@ -280,3 +280,6 @@
 [submodule "dev-perl/Ogg-Vorbis-Header-PurePerl"]
 	path = dev-perl/Ogg-Vorbis-Header-PurePerl
 	url = https://github.com/kentnl-gentoo/perl-ogg-vorbis-header-pureperl.git
+[submodule "dev-perl/Ogg-Vorbis-Header"]
+	path = dev-perl/Ogg-Vorbis-Header
+	url = https://github.com/kentnl-gentoo/Ogg-Vorbis-Header.git
