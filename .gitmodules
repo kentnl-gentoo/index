@@ -295,3 +295,6 @@
 [submodule "dev-perl/PPIx-EditorTools"]
 	path = dev-perl/PPIx-EditorTools
 	url = https://github.com/kentnl-gentoo/PPIx-EditorTools.git
+[submodule "dev-perl/Params-Classify"]
+	path = dev-perl/Params-Classify
+	url = https://github.com/kentnl-gentoo/Params-Classify.git
