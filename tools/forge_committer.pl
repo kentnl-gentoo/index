@@ -64,6 +64,16 @@ for my $arg ( @ARGV ) {
     $fake_env->{GIT_COMMITTER_DATE} = $fake_env->{GIT_AUTHOR_DATE} 
       if exists $fake_env->{GIT_AUTHOR_DATE};
   }
+  if ( $arg =~ /\A--commit=(.*)\z/ ) {
+      my $cid = $1;
+      if ( not exists $authors->{$cid} ) {
+        die "Unknown committer $cid";
+      }
+      $fake_env->{GIT_COMMITTER_NAME} = $authors->{$cid}->{name};
+      $fake_env->{GIT_COMMITTER_EMAIL} = $authors->{$cid}->{email};
+      $fake_env->{GIT_COMMITTER_DATE} = $fake_env->{GIT_AUTHOR_DATE}
+        if exists $fake_env->{GIT_AUTHOR_DATE};
+  }
 }
 
 for my $key ( sort keys %{$fake_env} ) {
