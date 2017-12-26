@@ -75,6 +75,12 @@ for my $arg ( @ARGV ) {
         if exists $fake_env->{GIT_AUTHOR_DATE};
   }
 }
+for my $arg ( @ARGV ) {
+  if( $arg =~ /\A--commit-ts=(.*)\z/ ) {
+    $fake_env->{GIT_COMMITTER_DATE} = $1;
+    next;
+  }
+}
 
 for my $key ( sort keys %{$fake_env} ) {
   printf "export %s=\'%s\'\n", $key, $fake_env->{$key};
