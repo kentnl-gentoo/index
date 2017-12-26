@@ -27,6 +27,54 @@ my $authors = {
     name => "Kent Fredric",
     email => 'kentnl@gentoo.org',
   },
+  'monsieurp' => {
+    name => "Patrice Clement",
+    email => 'monsieurp@gentoo.org',
+  },
+  'dev-zero' => {
+    name => 'Tiziano Müller',
+    email => 'dev-zero@gentoo.org',
+  },
+  'fabio rossi' => {
+    name => "Fabio Rossi",
+    email => 'rossi.f@inwind.it',
+  },
+  'chainsaw' => {
+    name => 'Tony Vroon',
+    email => 'chainsaw@gentoo.org',
+  },
+  'dmn' => {
+    name => 'Damyan Ivanov',
+    email => 'dmn@debian.org',
+  },
+  'mguen' => {
+    name => 'Michael Guennewig',
+    email => 'guennewi@ls6.cs.uni-dortmund.de',
+  },
+  'jaldhar' => {
+    name => 'Jaldar H. Vyas',
+    email => 'jaldhar@debian.org',
+  },
+  'morten' => {
+    name => 'Morten Bøgeskov',
+    email => 'morten@bogeskov.dk',
+  },
+  'thilbrich' => {
+    name => 'Torsten Hilbrich',
+    email => 'Torsten.Hilbrich@gmx.net',
+  },
+  'mjb' => {
+    name => 'Mike Beattie',
+    email => 'mjb@debian.org',
+  },
+  'bhenry' => {
+    name => 'Brock Henry',
+    email => 'brock.henry@gmail.com',
+  },
+  'jkeenan' => {
+    name => 'James E Keenan',
+    email => 'jkeenan@cpan.org',
+  }
 };
 
 my $fake_env = {};
