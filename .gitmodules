@@ -289,3 +289,6 @@
 [submodule "dev-perl/Panotools-Script"]
 	path = dev-perl/Panotools-Script
 	url = https://github.com/kentnl-gentoo/Panotools-Script.git
+[submodule "dev-perl/PPI"]
+	path = dev-perl/PPI
+	url = https://github.com/kentnl-gentoo/PPI.git
