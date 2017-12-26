@@ -32,6 +32,12 @@ my $authors = {
 my $fake_env = {};
 
 for my $arg ( @ARGV ) {
+  if ( $arg !~ /\A--(author=.*|ts=.*|commit(=.*|)|commit-ts=.*)\z/ ) {
+    die "Unknown arg $arg"
+  }
+}
+
+for my $arg ( @ARGV ) {
   if ( $arg =~ /\A--author=([^ ]+)\z/ ) {
     my ( $aid ) = $1;
     if ( not exists $authors->{$aid} ) {
