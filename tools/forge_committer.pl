@@ -38,7 +38,7 @@ for my $arg ( @ARGV ) {
 }
 
 for my $arg ( @ARGV ) {
-  if ( $arg =~ /\A--author=([^ ]+)\z/ ) {
+  if ( $arg =~ /\A--author=(.*)\z/ ) {
     my ( $aid ) = $1;
     if ( not exists $authors->{$aid} ) {
       die "Unknown author $aid";
