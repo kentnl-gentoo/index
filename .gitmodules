@@ -286,3 +286,6 @@
 [submodule "dev-perl/Parallel-Iterator"]
 	path = dev-perl/Parallel-Iterator
 	url = https://github.com/kentnl-gentoo/Parallel--Iterator.git
+[submodule "dev-perl/Panotools-Script"]
+	path = dev-perl/Panotools-Script
+	url = https://github.com/kentnl-gentoo/Panotools-Script.git
