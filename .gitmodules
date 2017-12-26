@@ -292,3 +292,6 @@
 [submodule "dev-perl/PPI"]
 	path = dev-perl/PPI
 	url = https://github.com/kentnl-gentoo/PPI.git
+[submodule "dev-perl/PPIx-EditorTools"]
+	path = dev-perl/PPIx-EditorTools
+	url = https://github.com/kentnl-gentoo/PPIx-EditorTools.git
