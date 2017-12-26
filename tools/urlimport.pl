@@ -77,7 +77,7 @@ if ( path('.gitignore')->exists ) {
 }
 # Unroll new tar
 {
-  system('tar','--strip-components=1', '-xvf', $tfile->stringify ) == 0 or die "Tar bailed";
+  system('tar','--strip-components=1', '--exclude=.git/*', '-xvf', $tfile->stringify ) == 0 or die "Tar bailed";
 }
 # Add new files
 {
