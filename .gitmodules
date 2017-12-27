@@ -298,3 +298,6 @@
 [submodule "dev-perl/Params-Classify"]
 	path = dev-perl/Params-Classify
 	url = https://github.com/kentnl-gentoo/Params-Classify.git
+[submodule "dev-perl/Parse-ErrorString-Perl"]
+	path = dev-perl/Parse-ErrorString-Perl
+	url = https://github.com/kentnl-gentoo/Parse-ErrorString-Perl.git
