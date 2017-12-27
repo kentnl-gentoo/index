@@ -304,3 +304,6 @@
 [submodule "dev-perl/PerlIO-eol"]
 	path = dev-perl/PerlIO-eol
 	url = https://github.com/kentnl-gentoo/PerlIO-eol.git
+[submodule "dev-perl/PGPLOT"]
+	path = dev-perl/PGPLOT
+	url = https://github.com/kentnl-gentoo/p5-PGPLOT.git
