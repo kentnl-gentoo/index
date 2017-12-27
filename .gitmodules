@@ -301,3 +301,6 @@
 [submodule "dev-perl/Parse-ErrorString-Perl"]
 	path = dev-perl/Parse-ErrorString-Perl
 	url = https://github.com/kentnl-gentoo/Parse-ErrorString-Perl.git
+[submodule "dev-perl/PerlIO-eol"]
+	path = dev-perl/PerlIO-eol
+	url = https://github.com/kentnl-gentoo/PerlIO-eol.git
