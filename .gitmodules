@@ -307,3 +307,6 @@
 [submodule "dev-perl/PGPLOT"]
 	path = dev-perl/PGPLOT
 	url = https://github.com/kentnl-gentoo/p5-PGPLOT.git
+[submodule "dev-perl/ParaDNS"]
+	path = dev-perl/ParaDNS
+	url = https://github.com/kentnl-gentoo/ParaDNS.git
