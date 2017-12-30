@@ -316,3 +316,6 @@
 [submodule "dev-perl/Perlbal"]
 	path = dev-perl/Perlbal
 	url = https://github.com/kentnl-gentoo/Perlbal.git
+[submodule "dev-perl/PlRPC"]
+	path = dev-perl/PlRPC
+	url = https://github.com/kentnl-gentoo/PlRPC.git
