@@ -313,3 +313,6 @@
 [submodule "dev-perl/Perl-Tags"]
 	path = dev-perl/Perl-Tags
 	url = https://github.com/kentnl-gentoo/perl-tags.git
+[submodule "dev-perl/Perlbal"]
+	path = dev-perl/Perlbal
+	url = https://github.com/kentnl-gentoo/Perlbal.git
