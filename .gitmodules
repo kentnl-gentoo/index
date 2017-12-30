@@ -319,3 +319,6 @@
 [submodule "dev-perl/PlRPC"]
 	path = dev-perl/PlRPC
 	url = https://github.com/kentnl-gentoo/PlRPC.git
+[submodule "dev-perl/Authen-Radius"]
+	path = dev-perl/Authen-Radius
+	url = https://github.com/kentnl-gentoo/Authen-Radius.git
