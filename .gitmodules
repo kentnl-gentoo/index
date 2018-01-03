@@ -322,3 +322,6 @@
 [submodule "dev-perl/Authen-Radius"]
 	path = dev-perl/Authen-Radius
 	url = https://github.com/kentnl-gentoo/Authen-Radius.git
+[submodule "dev-perl/URI-redis"]
+	path = dev-perl/URI-redis
+	url = https://github.com/kentnl-gentoo/URI-redis.git
