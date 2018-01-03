@@ -328,3 +328,6 @@
 [submodule "dev-perl/RedisDB-Parser"]
 	path = dev-perl/RedisDB-Parser
 	url = https://github.com/kentnl-gentoo/perl-RedisDB-Parser.git
+[submodule "dev-perl/Regexp-Common-net-CIDR"]
+	path = dev-perl/Regexp-Common-net-CIDR
+	url = https://github.com/kentnl-gentoo/regexp-common-net-cidr.git
