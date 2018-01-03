@@ -325,3 +325,6 @@
 [submodule "dev-perl/URI-redis"]
 	path = dev-perl/URI-redis
 	url = https://github.com/kentnl-gentoo/URI-redis.git
+[submodule "dev-perl/RedisDB-Parser"]
+	path = dev-perl/RedisDB-Parser
+	url = https://github.com/kentnl-gentoo/perl-RedisDB-Parser.git
