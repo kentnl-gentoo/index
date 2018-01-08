@@ -337,3 +337,6 @@
 [submodule "dev-perl/Set-Object"]
 	path = dev-perl/Set-Object
 	url = https://github.com/kentnl-gentoo/Set-Object.git
+[submodule "dev-perl/ShipIt"]
+	path = dev-perl/ShipIt
+	url = https://github.com/kentnl-gentoo/shipit.git
