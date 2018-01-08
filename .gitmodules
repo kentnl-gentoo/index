@@ -334,3 +334,6 @@
 [submodule "dev-perl/RRD-Simple"]
 	path = dev-perl/RRD-Simple
 	url = https://github.com/kentnl-gentoo/RRD-Simple.git
+[submodule "dev-perl/Set-Object"]
+	path = dev-perl/Set-Object
+	url = https://github.com/kentnl-gentoo/Set-Object.git
