@@ -331,3 +331,6 @@
 [submodule "dev-perl/Regexp-Common-net-CIDR"]
 	path = dev-perl/Regexp-Common-net-CIDR
 	url = https://github.com/kentnl-gentoo/regexp-common-net-cidr.git
+[submodule "dev-perl/RRD-Simple"]
+	path = dev-perl/RRD-Simple
+	url = https://github.com/kentnl-gentoo/RRD-Simple.git
