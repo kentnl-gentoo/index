@@ -340,3 +340,6 @@
 [submodule "dev-perl/ShipIt"]
 	path = dev-perl/ShipIt
 	url = https://github.com/kentnl-gentoo/shipit.git
+[submodule "dev-perl/SQL-Translator"]
+	path = dev-perl/SQL-Translator
+	url = https://github.com/kentnl-gentoo/sql-translator.git
