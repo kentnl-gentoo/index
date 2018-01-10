@@ -355,3 +355,6 @@
 [submodule "dev-perl/Sys-Virt"]
 	path = dev-perl/Sys-Virt
 	url = https://github.com/kentnl-gentoo/libvirt-perl.git
+[submodule "dev-perl/Shell-EnvImporter"]
+	path = dev-perl/Shell-EnvImporter
+	url = https://github.com/kentnl-gentoo/Shell-EnvImporter.git
