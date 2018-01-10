@@ -358,3 +358,6 @@
 [submodule "dev-perl/Shell-EnvImporter"]
 	path = dev-perl/Shell-EnvImporter
 	url = https://github.com/kentnl-gentoo/Shell-EnvImporter.git
+[submodule "dev-perl/Test-TCP"]
+	path = dev-perl/Test-TCP
+	url = https://github.com/kentnl-gentoo/Test-TCP.git
