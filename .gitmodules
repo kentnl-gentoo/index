@@ -343,3 +343,6 @@
 [submodule "dev-perl/SQL-Translator"]
 	path = dev-perl/SQL-Translator
 	url = https://github.com/kentnl-gentoo/sql-translator.git
+[submodule "dev-perl/Specio"]
+	path = dev-perl/Specio
+	url = https://github.com/kentnl-gentoo/Specio.git
