@@ -349,3 +349,6 @@
 [submodule "dev-perl/Syntax-Highlight-Engine-Simple"]
 	path = dev-perl/Syntax-Highlight-Engine-Simple
 	url = https://github.com/kentnl-gentoo/Syntax-Highlight-Engine-Simple.git
+[submodule "dev-perl/Syntax-Highlight-Engine-Simple-Perl"]
+	path = dev-perl/Syntax-Highlight-Engine-Simple-Perl
+	url = https://github.com/kentnl-gentoo/Syntax-Highlight-Engine-Simple-Perl.git
