@@ -346,3 +346,6 @@
 [submodule "dev-perl/Specio"]
 	path = dev-perl/Specio
 	url = https://github.com/kentnl-gentoo/Specio.git
+[submodule "dev-perl/Syntax-Highlight-Engine-Simple"]
+	path = dev-perl/Syntax-Highlight-Engine-Simple
+	url = https://github.com/kentnl-gentoo/Syntax-Highlight-Engine-Simple.git
