@@ -361,3 +361,6 @@
 [submodule "dev-perl/Test-TCP"]
 	path = dev-perl/Test-TCP
 	url = https://github.com/kentnl-gentoo/Test-TCP.git
+[submodule "dev-perl/Template-Toolkit"]
+	path = dev-perl/Template-Toolkit
+	url = https://github.com/kentnl-gentoo/Template2.git
