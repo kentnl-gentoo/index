@@ -364,3 +364,6 @@
 [submodule "dev-perl/Template-Toolkit"]
 	path = dev-perl/Template-Toolkit
 	url = https://github.com/kentnl-gentoo/Template2.git
+[submodule "dev-perl/TheSchwartz"]
+	path = dev-perl/TheSchwartz
+	url = github.com:/kentnl-gentoo/TheSchwartz.git
