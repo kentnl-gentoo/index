@@ -367,3 +367,6 @@
 [submodule "dev-perl/TheSchwartz"]
 	path = dev-perl/TheSchwartz
 	url = github.com:/kentnl-gentoo/TheSchwartz.git
+[submodule "dev-perl/Term-ReadLine-TTYtter"]
+	path = dev-perl/Term-ReadLine-TTYtter
+	url = https://github.com/kentnl-gentoo/Term-ReadLine-TTYtter.git
