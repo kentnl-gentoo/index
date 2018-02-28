@@ -370,3 +370,6 @@
 [submodule "dev-perl/Term-ReadLine-TTYtter"]
 	path = dev-perl/Term-ReadLine-TTYtter
 	url = https://github.com/kentnl-gentoo/Term-ReadLine-TTYtter.git
+[submodule "dev-perl/Text-VimColor"]
+	path = dev-perl/Text-VimColor
+	url = https://github.com/kentnl-gentoo/Text-VimColor.git
