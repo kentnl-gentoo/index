@@ -373,3 +373,6 @@
 [submodule "dev-perl/Text-VimColor"]
 	path = dev-perl/Text-VimColor
 	url = https://github.com/kentnl-gentoo/Text-VimColor.git
+[submodule "dev-perl/Test-ClassAPI"]
+	path = dev-perl/Test-ClassAPI
+	url = https://github.com/kentnl-gentoo/Test-ClassAPI.git
