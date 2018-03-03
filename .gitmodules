@@ -376,3 +376,6 @@
 [submodule "dev-perl/Test-ClassAPI"]
 	path = dev-perl/Test-ClassAPI
 	url = https://github.com/kentnl-gentoo/Test-ClassAPI.git
+[submodule "dev-perl/Test-LeakTrace"]
+	path = dev-perl/Test-LeakTrace
+	url = https://github.com/kentnl-gentoo/p5-Test-LeakTrace.git
