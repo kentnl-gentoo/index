@@ -388,3 +388,6 @@
 [submodule "dev-perl/Test-Object"]
 	path = dev-perl/Test-Object
 	url = github.com:/kentnl-gentoo/Test-Object.git
+[submodule "dev-perl/Test-Portability-Files"]
+	path = dev-perl/Test-Portability-Files
+	url = https://github.com/kentnl-gentoo/Test-Portability-Files.git
