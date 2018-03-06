@@ -379,3 +379,6 @@
 [submodule "dev-perl/Test-LeakTrace"]
 	path = dev-perl/Test-LeakTrace
 	url = https://github.com/kentnl-gentoo/p5-Test-LeakTrace.git
+[submodule "dev-perl/Test-MockModule"]
+	path = dev-perl/Test-MockModule
+	url = github.com:/kentnl-gentoo/test-mockmodule.git
