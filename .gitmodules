@@ -366,7 +366,7 @@
 	url = https://github.com/kentnl-gentoo/Template2.git
 [submodule "dev-perl/TheSchwartz"]
 	path = dev-perl/TheSchwartz
-	url = github.com:/kentnl-gentoo/TheSchwartz.git
+	url = https://github.com/kentnl-gentoo/TheSchwartz.git
 [submodule "dev-perl/Term-ReadLine-TTYtter"]
 	path = dev-perl/Term-ReadLine-TTYtter
 	url = https://github.com/kentnl-gentoo/Term-ReadLine-TTYtter.git
@@ -381,13 +381,13 @@
 	url = https://github.com/kentnl-gentoo/p5-Test-LeakTrace.git
 [submodule "dev-perl/Test-MockModule"]
 	path = dev-perl/Test-MockModule
-	url = github.com:/kentnl-gentoo/test-mockmodule.git
+	url = https://github.com/kentnl-gentoo/test-mockmodule.git
 [submodule "dev-perl/Test-MockTime"]
 	path = dev-perl/Test-MockTime
-	url = github.com:/kentnl-gentoo/Test-MockTime.git
+	url = https://github.com/kentnl-gentoo/Test-MockTime.git
 [submodule "dev-perl/Test-Object"]
 	path = dev-perl/Test-Object
-	url = github.com:/kentnl-gentoo/Test-Object.git
+	url = https://github.com/kentnl-gentoo/Test-Object.git
 [submodule "dev-perl/Test-Portability-Files"]
 	path = dev-perl/Test-Portability-Files
 	url = https://github.com/kentnl-gentoo/Test-Portability-Files.git
