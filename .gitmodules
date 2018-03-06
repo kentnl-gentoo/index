@@ -382,3 +382,6 @@
 [submodule "dev-perl/Test-MockModule"]
 	path = dev-perl/Test-MockModule
 	url = github.com:/kentnl-gentoo/test-mockmodule.git
+[submodule "dev-perl/Test-MockTime"]
+	path = dev-perl/Test-MockTime
+	url = github.com:/kentnl-gentoo/Test-MockTime.git
