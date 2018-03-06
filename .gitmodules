@@ -394,3 +394,6 @@
 [submodule "dev-perl/Test-SubCalls"]
 	path = dev-perl/Test-SubCalls
 	url = https://github.com/kentnl-gentoo/Test-SubCalls.git
+[submodule "dev-perl/Test-Time"]
+	path = dev-perl/Test-Time
+	url = https://github.com/kentnl-gentoo/Test-Time.git
