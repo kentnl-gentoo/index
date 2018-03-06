@@ -391,3 +391,6 @@
 [submodule "dev-perl/Test-Portability-Files"]
 	path = dev-perl/Test-Portability-Files
 	url = https://github.com/kentnl-gentoo/Test-Portability-Files.git
+[submodule "dev-perl/Test-SubCalls"]
+	path = dev-perl/Test-SubCalls
+	url = https://github.com/kentnl-gentoo/Test-SubCalls.git
