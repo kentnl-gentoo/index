@@ -397,3 +397,6 @@
 [submodule "dev-perl/Test-Time"]
 	path = dev-perl/Test-Time
 	url = https://github.com/kentnl-gentoo/Test-Time.git
+[submodule "dev-perl/Test-Timer"]
+	path = dev-perl/Test-Timer
+	url = https://github.com/kentnl-gentoo/perl-test-timer.git
