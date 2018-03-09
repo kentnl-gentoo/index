@@ -400,3 +400,6 @@
 [submodule "dev-perl/Test-Timer"]
 	path = dev-perl/Test-Timer
 	url = https://github.com/kentnl-gentoo/perl-test-timer.git
+[submodule "dev-perl/Test-WWW-Mechanize"]
+	path = dev-perl/Test-WWW-Mechanize
+	url = https://github.com/kentnl-gentoo/test-www-mechanize.git
