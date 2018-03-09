@@ -403,3 +403,6 @@
 [submodule "dev-perl/Test-WWW-Mechanize"]
 	path = dev-perl/Test-WWW-Mechanize
 	url = https://github.com/kentnl-gentoo/test-www-mechanize.git
+[submodule "dev-perl/Text-CSV_XS"]
+	path = dev-perl/Text-CSV_XS
+	url = https://github.com/kentnl-gentoo/Text-CSV_XS.git
