@@ -412,3 +412,6 @@
 [submodule "dev-perl/Text-Format"]
 	path = dev-perl/Text-Format
 	url = https://github.com/kentnl-gentoo/Text-Format.git
+[submodule "dev-perl/Text-Table"]
+	path = dev-perl/Text-Table
+	url = https://github.com/kentnl-gentoo/Text-Table.git
