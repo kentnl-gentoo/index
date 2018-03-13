@@ -409,3 +409,6 @@
 [submodule "dev-perl/Text-Diff"]
 	path = dev-perl/Text-Diff
 	url = https://github.com/kentnl-gentoo/Text-Diff.git
+[submodule "dev-perl/Text-Format"]
+	path = dev-perl/Text-Format
+	url = https://github.com/kentnl-gentoo/Text-Format.git
