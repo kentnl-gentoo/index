@@ -418,3 +418,6 @@
 [submodule "dev-perl/Text-Template"]
 	path = dev-perl/Text-Template
 	url = https://github.com/kentnl-gentoo/perl-text-template.git
+[submodule "dev-perl/Tie-Cycle"]
+	path = dev-perl/Tie-Cycle
+	url = https://github.com/kentnl-gentoo/tie-cycle.git
