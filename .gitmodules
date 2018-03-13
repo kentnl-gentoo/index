@@ -415,3 +415,6 @@
 [submodule "dev-perl/Text-Table"]
 	path = dev-perl/Text-Table
 	url = https://github.com/kentnl-gentoo/Text-Table.git
+[submodule "dev-perl/Text-Template"]
+	path = dev-perl/Text-Template
+	url = https://github.com/kentnl-gentoo/perl-text-template.git
