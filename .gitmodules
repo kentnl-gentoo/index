@@ -406,3 +406,6 @@
 [submodule "dev-perl/Text-CSV_XS"]
 	path = dev-perl/Text-CSV_XS
 	url = https://github.com/kentnl-gentoo/Text-CSV_XS.git
+[submodule "dev-perl/Text-Diff"]
+	path = dev-perl/Text-Diff
+	url = https://github.com/kentnl-gentoo/Text-Diff.git
