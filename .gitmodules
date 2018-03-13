@@ -421,3 +421,6 @@
 [submodule "dev-perl/Tie-Cycle"]
 	path = dev-perl/Tie-Cycle
 	url = https://github.com/kentnl-gentoo/tie-cycle.git
+[submodule "dev-perl/Time-Moment"]
+	path = dev-perl/Time-Moment
+	url = https://github.com/kentnl-gentoo/p5-time-moment.git
