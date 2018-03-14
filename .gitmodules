@@ -433,3 +433,6 @@
 [submodule "dev-perl/Term-ReadLine-Perl"]
 	path = dev-perl/Term-ReadLine-Perl
 	url = https://github.com/kentnl-gentoo/Term-ReadLine-Perl.git
+[submodule "dev-perl/Term-ReadPassword"]
+	path = dev-perl/Term-ReadPassword
+	url = https://github.com/kentnl-gentoo/Term-ReadPassword.git
