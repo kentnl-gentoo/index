@@ -427,3 +427,6 @@
 [submodule "dev-perl/Tk"]
 	path = dev-perl/Tk
 	url = https://github.com/kentnl-gentoo/perl-tk.git
+[submodule "dev-perl/Tree-Simple"]
+	path = dev-perl/Tree-Simple
+	url = https://github.com/kentnl-gentoo/Tree-Simple.git
