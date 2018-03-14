@@ -430,3 +430,6 @@
 [submodule "dev-perl/Tree-Simple"]
 	path = dev-perl/Tree-Simple
 	url = https://github.com/kentnl-gentoo/Tree-Simple.git
+[submodule "dev-perl/Term-ReadLine-Perl"]
+	path = dev-perl/Term-ReadLine-Perl
+	url = https://github.com/kentnl-gentoo/Term-ReadLine-Perl.git
