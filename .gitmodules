@@ -424,3 +424,6 @@
 [submodule "dev-perl/Time-Moment"]
 	path = dev-perl/Time-Moment
 	url = https://github.com/kentnl-gentoo/p5-time-moment.git
+[submodule "dev-perl/Tk"]
+	path = dev-perl/Tk
+	url = https://github.com/kentnl-gentoo/perl-tk.git
