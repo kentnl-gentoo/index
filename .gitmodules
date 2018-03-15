@@ -442,3 +442,6 @@
 [submodule "dev-perl/Text-Kakasi"]
 	path = dev-perl/Text-Kakasi
 	url = https://github.com/kentnl-gentoo/Text-Kakasi.git
+[submodule "dev-perl/Tie-Cache"]
+	path = dev-perl/Tie-Cache
+	url = https://github.com/kentnl-gentoo/Tie-Cache.git
