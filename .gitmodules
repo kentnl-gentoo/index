@@ -436,3 +436,6 @@
 [submodule "dev-perl/Term-ReadPassword"]
 	path = dev-perl/Term-ReadPassword
 	url = https://github.com/kentnl-gentoo/Term-ReadPassword.git
+[submodule "dev-perl/Test-UseAllModules"]
+	path = dev-perl/Test-UseAllModules
+	url = https://github.com/kentnl-gentoo/test-useallmodules
