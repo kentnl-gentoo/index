@@ -439,3 +439,6 @@
 [submodule "dev-perl/Test-UseAllModules"]
 	path = dev-perl/Test-UseAllModules
 	url = https://github.com/kentnl-gentoo/test-useallmodules
+[submodule "dev-perl/Text-Kakasi"]
+	path = dev-perl/Text-Kakasi
+	url = https://github.com/kentnl-gentoo/Text-Kakasi.git
