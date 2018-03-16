@@ -448,3 +448,6 @@
 [submodule "dev-perl/Time-Format"]
 	path = dev-perl/Time-Format
 	url = https://github.com/kentnl-gentoo/Time-Format.git
+[submodule "dev-perl/Time-Out"]
+	path = dev-perl/Time-Out
+	url = https://github.com/kentnl-gentoo/Time-Out.git
