@@ -445,3 +445,6 @@
 [submodule "dev-perl/Tie-Cache"]
 	path = dev-perl/Tie-Cache
 	url = https://github.com/kentnl-gentoo/Tie-Cache.git
+[submodule "dev-perl/Time-Format"]
+	path = dev-perl/Time-Format
+	url = https://github.com/kentnl-gentoo/Time-Format.git
