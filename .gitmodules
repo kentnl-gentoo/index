@@ -454,3 +454,6 @@
 [submodule "dev-perl/Tk-CursorControl"]
 	path = dev-perl/Tk-CursorControl
 	url = https://github.com/kentnl-gentoo/Tk-CursorControl.git
+[submodule "dev-perl/Tk-TableMatrix"]
+	path = dev-perl/Tk-TableMatrix
+	url = https://github.com/kentnl-gentoo/Tk-TableMatrix.git
