@@ -463,3 +463,6 @@
 [submodule "dev-perl/Unicode-LineBreak"]
 	path = dev-perl/Unicode-LineBreak
 	url = https://github.com/kentnl-gentoo/Unicode-LineBreak.git
+[submodule "dev-perl/UltraDNS"]
+	path = dev-perl/UltraDNS
+	url = https://github.com/kentnl-gentoo/UltraDNS.git
