@@ -460,3 +460,6 @@
 [submodule "dev-perl/tkispell"]
 	path = dev-perl/tkispell
 	url = https://github.com/kentnl-gentoo/tkispell.git
+[submodule "dev-perl/Unicode-LineBreak"]
+	path = dev-perl/Unicode-LineBreak
+	url = https://github.com/kentnl-gentoo/Unicode-LineBreak.git
