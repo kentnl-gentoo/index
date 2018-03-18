@@ -457,3 +457,6 @@
 [submodule "dev-perl/Tk-TableMatrix"]
 	path = dev-perl/Tk-TableMatrix
 	url = https://github.com/kentnl-gentoo/Tk-TableMatrix.git
+[submodule "dev-perl/tkispell"]
+	path = dev-perl/tkispell
+	url = https://github.com/kentnl-gentoo/tkispell.git
