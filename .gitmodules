@@ -466,3 +466,6 @@
 [submodule "dev-perl/UltraDNS"]
 	path = dev-perl/UltraDNS
 	url = https://github.com/kentnl-gentoo/UltraDNS.git
+[submodule "dev-perl/USB-TMC"]
+	path = dev-perl/USB-TMC
+	url = https://github.com/kentnl-gentoo/USB-TMC.git
