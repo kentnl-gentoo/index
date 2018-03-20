@@ -472,3 +472,6 @@
 [submodule "dev-perl/Unicode-MapUTF8"]
 	path = dev-perl/Unicode-MapUTF8
 	url = https://github.com/kentnl-gentoo/Unicode-MapUTF8.git
+[submodule "dev-perl/Validate-Tiny"]
+	path = dev-perl/Validate-Tiny
+	url = https://github.com/kentnl-gentoo/Validate--Tiny.git
