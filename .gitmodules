@@ -469,3 +469,6 @@
 [submodule "dev-perl/USB-TMC"]
 	path = dev-perl/USB-TMC
 	url = https://github.com/kentnl-gentoo/USB-TMC.git
+[submodule "dev-perl/Unicode-MapUTF8"]
+	path = dev-perl/Unicode-MapUTF8
+	url = https://github.com/kentnl-gentoo/Unicode-MapUTF8.git
