@@ -481,3 +481,6 @@
 [submodule "dev-perl/WWW-Mechanize"]
 	path = dev-perl/WWW-Mechanize
 	url = https://github.com/kentnl-gentoo/WWW-Mechanize.git
+[submodule "dev-perl/WebService-MusicBrainz"]
+	path = dev-perl/WebService-MusicBrainz
+	url = https://github.com/kentnl-gentoo/webservice-musicbrainz.git
