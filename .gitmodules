@@ -475,3 +475,6 @@
 [submodule "dev-perl/Validate-Tiny"]
 	path = dev-perl/Validate-Tiny
 	url = https://github.com/kentnl-gentoo/Validate--Tiny.git
+[submodule "dev-perl/Weather-Com"]
+	path = dev-perl/Weather-Com
+	url = https://github.com/kentnl-gentoo/Weather-Com.git
