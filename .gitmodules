@@ -484,3 +484,6 @@
 [submodule "dev-perl/WebService-MusicBrainz"]
 	path = dev-perl/WebService-MusicBrainz
 	url = https://github.com/kentnl-gentoo/webservice-musicbrainz.git
+[submodule "dev-perl/WWW-Bugzilla"]
+	path = dev-perl/WWW-Bugzilla
+	url = https://github.com/kentnl-gentoo/WWW-Bugzilla.git
