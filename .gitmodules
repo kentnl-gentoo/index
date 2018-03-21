@@ -487,3 +487,6 @@
 [submodule "dev-perl/WWW-Bugzilla"]
 	path = dev-perl/WWW-Bugzilla
 	url = https://github.com/kentnl-gentoo/WWW-Bugzilla.git
+[submodule "dev-perl/WWW-Curl"]
+	path = dev-perl/WWW-Curl
+	url = https://github.com/kentnl-gentoo/WWW--Curl.git
