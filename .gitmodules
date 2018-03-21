@@ -478,3 +478,6 @@
 [submodule "dev-perl/Weather-Com"]
 	path = dev-perl/Weather-Com
 	url = https://github.com/kentnl-gentoo/Weather-Com.git
+[submodule "dev-perl/WWW-Mechanize"]
+	path = dev-perl/WWW-Mechanize
+	url = https://github.com/kentnl-gentoo/WWW-Mechanize.git
