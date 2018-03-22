@@ -490,3 +490,6 @@
 [submodule "dev-perl/WWW-Curl"]
 	path = dev-perl/WWW-Curl
 	url = https://github.com/kentnl-gentoo/WWW--Curl.git
+[submodule "dev-perl/Wx-Scintilla"]
+	path = dev-perl/Wx-Scintilla
+	url = https://github.com/kentnl-gentoo/Wx-Scintilla.git
