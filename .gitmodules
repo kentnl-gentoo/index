@@ -496,3 +496,6 @@
 [submodule "dev-perl/XML-LibXML"]
 	path = dev-perl/XML-LibXML
 	url = https://github.com/kentnl-gentoo/perl-XML-LibXML.git
+[submodule "dev-perl/XML-DOM"]
+	path = dev-perl/XML-DOM
+	url = https://github.com/kentnl-gentoo/XML-DOM.git
