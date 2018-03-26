@@ -499,3 +499,6 @@
 [submodule "dev-perl/XML-DOM"]
 	path = dev-perl/XML-DOM
 	url = https://github.com/kentnl-gentoo/XML-DOM.git
+[submodule "dev-perl/XML-DOM-XPath"]
+	path = dev-perl/XML-DOM-XPath
+	url = https://github.com/kentnl-gentoo/XML-DOM-XPath.git
