@@ -502,3 +502,6 @@
 [submodule "dev-perl/XML-DOM-XPath"]
 	path = dev-perl/XML-DOM-XPath
 	url = https://github.com/kentnl-gentoo/XML-DOM-XPath.git
+[submodule "dev-perl/XML-Atom"]
+	path = dev-perl/XML-Atom
+	url = https://github.com/kentnl-gentoo/xml-atom.git
