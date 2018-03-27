@@ -505,3 +505,6 @@
 [submodule "dev-perl/XML-Atom"]
 	path = dev-perl/XML-Atom
 	url = https://github.com/kentnl-gentoo/xml-atom.git
+[submodule "dev-perl/XML-LibXSLT"]
+	path = dev-perl/XML-LibXSLT
+	url = https://github.com/kentnl-gentoo/perl-XML-LibXSLT.git
