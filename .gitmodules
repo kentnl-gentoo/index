@@ -517,3 +517,6 @@
 [submodule "dev-perl/XML-CompactTree-XS"]
 	path = dev-perl/XML-CompactTree-XS
 	url = https://github.com/kentnl-gentoo/XML-CompactTree-XS.git
+[submodule "dev-perl/XML-RSS"]
+	path = dev-perl/XML-RSS
+	url = https://github.com/kentnl-gentoo/perl-XML-RSS.git
