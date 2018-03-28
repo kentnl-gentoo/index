@@ -523,3 +523,6 @@
 [submodule "dev-perl/XML-SAX"]
 	path = dev-perl/XML-SAX
 	url = https://github.com/kentnl-gentoo/XML-SAX.git
+[submodule "dev-perl/X11-Protocol"]
+	path = dev-perl/X11-Protocol
+	url = https://github.com/kentnl-gentoo/X11-Protocol.git
