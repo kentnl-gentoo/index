@@ -511,3 +511,6 @@
 [submodule "dev-perl/XML-Simple"]
 	path = dev-perl/XML-Simple
 	url = https://github.com/kentnl-gentoo/xml-simple.git
+[submodule "dev-perl/X11-XCB"]
+	path = dev-perl/X11-XCB
+	url = https://github.com/kentnl-gentoo/X11-XCB.git
