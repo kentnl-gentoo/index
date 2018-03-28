@@ -520,3 +520,6 @@
 [submodule "dev-perl/XML-RSS"]
 	path = dev-perl/XML-RSS
 	url = https://github.com/kentnl-gentoo/perl-XML-RSS.git
+[submodule "dev-perl/XML-SAX"]
+	path = dev-perl/XML-SAX
+	url = https://github.com/kentnl-gentoo/XML-SAX.git
