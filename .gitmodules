@@ -508,3 +508,6 @@
 [submodule "dev-perl/XML-LibXSLT"]
 	path = dev-perl/XML-LibXSLT
 	url = https://github.com/kentnl-gentoo/perl-XML-LibXSLT.git
+[submodule "dev-perl/XML-Simple"]
+	path = dev-perl/XML-Simple
+	url = https://github.com/kentnl-gentoo/xml-simple.git
