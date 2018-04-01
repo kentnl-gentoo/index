@@ -529,3 +529,6 @@
 [submodule "dev-perl/XML-Grove"]
 	path = dev-perl/XML-Grove
 	url = https://github.com/kentnl-gentoo/XML-Grove.git
+[submodule "dev-perl/Ace"]
+	path = dev-perl/Ace
+	url = https://github.com/kentnl-gentoo/AcePerl.git
