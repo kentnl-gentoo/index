@@ -532,3 +532,6 @@
 [submodule "dev-perl/Ace"]
 	path = dev-perl/Ace
 	url = https://github.com/kentnl-gentoo/AcePerl.git
+[submodule "dev-perl/YAML-LibYAML"]
+	path = dev-perl/YAML-LibYAML
+	url = https://github.com/kentnl-gentoo/yaml-libyaml-pm.git
