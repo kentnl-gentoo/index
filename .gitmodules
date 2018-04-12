@@ -535,3 +535,6 @@
 [submodule "dev-perl/YAML-LibYAML"]
 	path = dev-perl/YAML-LibYAML
 	url = https://github.com/kentnl-gentoo/yaml-libyaml-pm.git
+[submodule "dev-perl/Number-Bytes-Human"]
+	path = dev-perl/Number-Bytes-Human
+	url = https://github.com/kentnl-gentoo/cpan-Number-Bytes-Human
