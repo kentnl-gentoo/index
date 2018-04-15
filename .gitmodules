@@ -538,3 +538,6 @@
 [submodule "dev-perl/Number-Bytes-Human"]
 	path = dev-perl/Number-Bytes-Human
 	url = https://github.com/kentnl-gentoo/cpan-Number-Bytes-Human
+[submodule "dev-perl/Array-Compare"]
+	path = dev-perl/Array-Compare
+	url = https://github.com/kentnl-gentoo/array-compare.git
