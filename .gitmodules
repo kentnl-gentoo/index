@@ -547,3 +547,6 @@
 [submodule "dev-perl/Audio-Scan"]
 	path = dev-perl/Audio-Scan
 	url = https://github.com/kentnl-gentoo/Audio-Scan.git
+[submodule "dev-perl/autobox"]
+	path = dev-perl/autobox
+	url = https://github.com/kentnl-gentoo/autobox.git
