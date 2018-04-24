@@ -541,3 +541,6 @@
 [submodule "dev-perl/Array-Compare"]
 	path = dev-perl/Array-Compare
 	url = https://github.com/kentnl-gentoo/array-compare.git
+[submodule "dev-perl/B-Keywords"]
+	path = dev-perl/B-Keywords
+	url = https://github.com/kentnl-gentoo/b-keywords.git
