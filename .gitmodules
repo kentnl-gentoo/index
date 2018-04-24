@@ -553,3 +553,6 @@
 [submodule "dev-perl/CGI"]
 	path = dev-perl/CGI
 	url = https://github.com/kentnl-gentoo/CGI.pm.git
+[submodule "dev-perl/CGI-Fast"]
+	path = dev-perl/CGI-Fast
+	url = https://github.com/kentnl-gentoo/cgi-fast.git
