@@ -550,3 +550,6 @@
 [submodule "dev-perl/autobox"]
 	path = dev-perl/autobox
 	url = https://github.com/kentnl-gentoo/autobox.git
+[submodule "dev-perl/CGI"]
+	path = dev-perl/CGI
+	url = https://github.com/kentnl-gentoo/CGI.pm.git
