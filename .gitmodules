@@ -544,3 +544,6 @@
 [submodule "dev-perl/B-Keywords"]
 	path = dev-perl/B-Keywords
 	url = https://github.com/kentnl-gentoo/b-keywords.git
+[submodule "dev-perl/Audio-Scan"]
+	path = dev-perl/Audio-Scan
+	url = https://github.com/kentnl-gentoo/Audio-Scan.git
