@@ -562,3 +562,6 @@
 [submodule "dev-perl/CSS-Packer"]
 	path = dev-perl/CSS-Packer
 	url = https://github.com/kentnl-gentoo/css-packer-perl.git
+[submodule "dev-perl/Calendar-Simple"]
+	path = dev-perl/Calendar-Simple
+	url = https://github.com/kentnl-gentoo/calendar-simple.git
