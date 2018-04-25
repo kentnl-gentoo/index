@@ -559,3 +559,6 @@
 [submodule "dev-perl/CPAN-Perl-Releases"]
 	path = dev-perl/CPAN-Perl-Releases
 	url = https://github.com/kentnl-gentoo/cpan-perl-releases.git
+[submodule "dev-perl/CSS-Packer"]
+	path = dev-perl/CSS-Packer
+	url = https://github.com/kentnl-gentoo/css-packer-perl.git
