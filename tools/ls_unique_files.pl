@@ -2,6 +2,16 @@
 use strict;
 use warnings;
 
+
+
+# USAGE:
+#
+# ls_unqiue_files.pl /path/to/git/repo /path/to/log/file [git log args]
+#
+# /path/to/logfile will be \0 delimited
+# STDOUT will be \n delimited
+# STDERR will report dates each time new files are seen, and '.' each
+# time a commit is seen that didn't discover new files.
 my $repo = shift @ARGV;
 
 die "Please specify a path to a repo to traverse" unless defined $repo;
