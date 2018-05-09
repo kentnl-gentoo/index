@@ -140,7 +140,7 @@ add_gauthor( 'woodchip'    => 'Donny Davies' );
 add_gauthor( 'zlogene'     => "Mikle Kolyada" );
 add_gauthor( 'zwelch'      => "Zack Welch" );
 
-my $fake_env = {};
+my $fake_env = { TZ => 'UTC', };
 
 for my $arg ( @ARGV ) {
   if ( $arg !~ /\A--(author=.*|ts=.*|commit(=.*|)|commit-ts=.*)\z/ ) {
