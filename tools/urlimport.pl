@@ -39,19 +39,38 @@ $ENV{TZ} = "UTC";
 
 ## Get timestap
 {
-  open my $fh, '-|', 'tar', '--full-time','--utc','--numeric-owner','-vtf', $tfile->stringify or die "Can't untar $tname";
-  my %seen_timestamps;
-  while ( my $line = <$fh> ) {
-    chomp $line;
-    $line =~ s/\A\S+\s\S+\s//;
-    $line =~ s/\A\s*\d+\s//;
-    my ( $timestamp, ) = ($line =~ qr{\A(\S+\s*\S+)});
-    $seen_timestamps{$timestamp}++;
+  if ( $tfile->basename =~ /\.zip/ ) {
+    open my $fh, '-|', 'zipinfo','--t','--h','-T', $tfile->stringify or die "Can't run infozip $tname";
+    my %seen_timestamps;
+    while ( my $line = <$fh> ) {
+      chomp $line;
+      # mode, version, whatver, size, type, othertype 
+      $line =~ s/\A(\S+\s+){6}//;
+      my ( $timestamp, ) = ($line =~ qr{\A(\S+\.\S+)});
+      $seen_timestamps{$timestamp}++;
+    }
+    my ( $oldest, ) = reverse sort keys %seen_timestamps;
+    my ( $yyyy, $mm, $dd, $hh, $min, $ss ) = ( $oldest =~ /\A(....)(..)(..)\.(..)(..)(..)/ );
+    $oldest = "${yyyy}-${mm}-${dd} ${hh}\:${min}\:${ss}";
+    say "Timestamp: $oldest";
+    $ENV{GIT_COMMITTER_DATE} = $oldest;
+    $ENV{GIT_AUTHOR_DATE} = $oldest;
+
+  } else {
+    open my $fh, '-|', 'tar', '--full-time','--utc','--numeric-owner','-vtf', $tfile->stringify or die "Can't untar $tname";
+    my %seen_timestamps;
+    while ( my $line = <$fh> ) {
+      chomp $line;
+      $line =~ s/\A\S+\s\S+\s//;
+      $line =~ s/\A\s*\d+\s//;
+      my ( $timestamp, ) = ($line =~ qr{\A(\S+\s*\S+)});
+      $seen_timestamps{$timestamp}++;
+    }
+    my ( $oldest, ) = reverse sort keys %seen_timestamps;
+    say "Timestamp: $oldest";
+    $ENV{GIT_COMMITTER_DATE} = $oldest;
+    $ENV{GIT_AUTHOR_DATE} = $oldest;
   }
-  my ( $oldest, ) = reverse sort keys %seen_timestamps;
-  say "Timestamp: $oldest";
-  $ENV{GIT_COMMITTER_DATE} = $oldest;
-  $ENV{GIT_AUTHOR_DATE} = $oldest;
 }
 if ( path('.gitignore')->exists ) {
   system('git', 'rm', '.gitignore');
@@ -64,20 +83,25 @@ if ( path('.gitignore')->exists ) {
   while ( my $filename = <$fh> ) {
     chomp $filename;
     push @buf, $filename;
-    say "\e[31m$filename\e[0m";
+    # say "\e[31m$filename\e[0m";
     if (( 1000 < length join q[ ], @buf )  or @buf > 1000 ) {
-      system('git','rm', '-f', @buf ) == 0 or die "Can't delete!";
+      system('git','rm', '-q', '-f', @buf ) == 0 or die "Can't delete!";
       @buf = ();
     }
   }
   if( @buf ) {
-      system('git','rm', '-f', @buf ) == 0 or die "Can't delete!";
+      system('git','rm', '-q','-f', @buf ) == 0 or die "Can't delete!";
       @buf = ();
   }
 }
-# Unroll new tar
-{
-  system('tar','--strip-components=1', '--exclude=.git/*', '-xvf', $tfile->stringify ) == 0 or die "Tar bailed";
+
+if ( $tfile->basename =~ /\.zip/ ) {
+  system('unzip','--D', $tfile->stringify,'-x','.git/*','-d','.') == 0 or die "Zip bailed";
+} else {
+  # Unroll new tar
+  {
+    system('tar','--transform=s/^\.\///','--strip-components=1', '--exclude=.git/*', '-xf', $tfile->stringify ) == 0 or die "Tar bailed";
+  }
 }
 # Add new files
 {
