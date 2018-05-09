@@ -142,51 +142,53 @@ add_gauthor( 'zwelch'      => "Zack Welch" );
 
 my $fake_env = { TZ => 'UTC', };
 
-for my $arg ( @ARGV ) {
-  if ( $arg !~ /\A--(author=.*|ts=.*|commit(=.*|)|commit-ts=.*)\z/ ) {
-    die "Unknown arg $arg"
-  }
+for my $arg (@ARGV) {
+    if ( $arg !~ /\A--(author=.*|ts=.*|commit(=.*|)|commit-ts=.*)\z/ ) {
+        die "Unknown arg $arg";
+    }
 }
 
-for my $arg ( @ARGV ) {
-  if ( $arg =~ /\A--author=(.*)\z/ ) {
-    my $entry = query_author($1);
-    $fake_env->{GIT_AUTHOR_NAME}  = $entry->{name};
-    $fake_env->{GIT_AUTHOR_EMAIL} = $entry->{email};
-    next;
-  }
+for my $arg (@ARGV) {
+    if ( $arg =~ /\A--author=(.*)\z/ ) {
+        my $entry = query_author($1);
+        $fake_env->{GIT_AUTHOR_NAME}  = $entry->{name};
+        $fake_env->{GIT_AUTHOR_EMAIL} = $entry->{email};
+        next;
+    }
 }
-for my $arg ( @ARGV ) {
-  if( $arg =~ /\A--ts=(.*)\z/ ) {
-    $fake_env->{GIT_AUTHOR_DATE} = $1;
-    next;
-  }
+
+for my $arg (@ARGV) {
+    if ( $arg =~ /\A--ts=(.*)\z/ ) {
+        $fake_env->{GIT_AUTHOR_DATE} = $1;
+        next;
+    }
 }
 if ( not exists $fake_env->{GIT_AUTHOR_NAME} ) {
-  die "need an author to fake";
+    die "need an author to fake";
 }
-for my $arg ( @ARGV ) {
-  if ( $arg =~ /\A--commit\z/ ) {
-    $fake_env->{GIT_COMMITTER_NAME} = $fake_env->{GIT_AUTHOR_NAME};
-    $fake_env->{GIT_COMMITTER_EMAIL} = $fake_env->{GIT_AUTHOR_EMAIL};
-    $fake_env->{GIT_COMMITTER_DATE} = $fake_env->{GIT_AUTHOR_DATE} 
-      if exists $fake_env->{GIT_AUTHOR_DATE};
-  }
-  if ( $arg =~ /\A--commit=(.*)\z/ ) {
-      my $entry = query_author($1);
-      $fake_env->{GIT_COMMITTER_NAME}  = $entry->{name};
-      $fake_env->{GIT_COMMITTER_EMAIL} = $entry->{email};
-      $fake_env->{GIT_COMMITTER_DATE}  = $fake_env->{GIT_AUTHOR_DATE}
-        if exists $fake_env->{GIT_AUTHOR_DATE};
-  }
+
+for my $arg (@ARGV) {
+    if ( $arg =~ /\A--commit\z/ ) {
+        $fake_env->{GIT_COMMITTER_NAME}  = $fake_env->{GIT_AUTHOR_NAME};
+        $fake_env->{GIT_COMMITTER_EMAIL} = $fake_env->{GIT_AUTHOR_EMAIL};
+        $fake_env->{GIT_COMMITTER_DATE}  = $fake_env->{GIT_AUTHOR_DATE}
+          if exists $fake_env->{GIT_AUTHOR_DATE};
+    }
+    if ( $arg =~ /\A--commit=(.*)\z/ ) {
+        my $entry = query_author($1);
+        $fake_env->{GIT_COMMITTER_NAME}  = $entry->{name};
+        $fake_env->{GIT_COMMITTER_EMAIL} = $entry->{email};
+        $fake_env->{GIT_COMMITTER_DATE}  = $fake_env->{GIT_AUTHOR_DATE}
+          if exists $fake_env->{GIT_AUTHOR_DATE};
+    }
 }
-for my $arg ( @ARGV ) {
-  if( $arg =~ /\A--commit-ts=(.*)\z/ ) {
-    $fake_env->{GIT_COMMITTER_DATE} = $1;
-    next;
-  }
+for my $arg (@ARGV) {
+    if ( $arg =~ /\A--commit-ts=(.*)\z/ ) {
+        $fake_env->{GIT_COMMITTER_DATE} = $1;
+        next;
+    }
 }
 
 for my $key ( sort keys %{$fake_env} ) {
-  printf "export %s=\'%s\'\n", $key, $fake_env->{$key};
+    printf "export %s=\'%s\'\n", $key, $fake_env->{$key};
 }
