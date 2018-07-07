@@ -565,3 +565,6 @@
 [submodule "dev-perl/Calendar-Simple"]
 	path = dev-perl/Calendar-Simple
 	url = https://github.com/kentnl-gentoo/calendar-simple.git
+[submodule "perl-core/Archive-Tar"]
+	path = perl-core/Archive-Tar
+	url = https://github.com/kentnl-gentoo/Archive-Tar.git
