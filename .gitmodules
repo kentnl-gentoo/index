@@ -568,3 +568,6 @@
 [submodule "perl-core/Archive-Tar"]
 	path = perl-core/Archive-Tar
 	url = https://github.com/kentnl-gentoo/Archive-Tar.git
+[submodule "dev-perl/Benchmark-Timer"]
+	path = dev-perl/Benchmark-Timer
+	url = https://github.com/kentnl-gentoo/benchmark-timer
